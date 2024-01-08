@@ -3,7 +3,10 @@
 // Object Stores Command Outputs
 let commandOutputs = {
     about: "A Student that spends a lot of his time on his computer.<br> Tech and Anime Enthusiast.",
-    projects: "I have made a few projects. You can find them on my github page.",
+    projects:"Persona Board: A web application that performs psychometric analysis of a person based on a quiz and social media posts.<br><i>Flask | CloudTable </i><br><br>\
+    Project Charity: A Website made to help people find a charity of their preferred criteria in India. <br><i>Mysql | HTML CSS JS | Flask</i><br><br>\
+    ResumeProbester: A Streamlit-based web application that analyses uploaded resumes in the format of pdf and extracts information. <br><i>Streamlit | Python | NLP</i><br><br>\
+    Feel free to check out my <a href='www.github.com/MKoushikYadav' target='_blank'>Github</a> for more projects/mini-projects.br>",
     experience: "Areteans Technologies(Oct 2023- Nov 2023) - Developer Intern<br>\
     REJOLT EDTECH PVT LTD (May 2022-May 2023) - Student Fellow<br>\
     AIESEC in Hyderabad (Aug 2022 - July 2023) - Marketing Team Leader",
@@ -42,7 +45,7 @@ const helpDialog ="\
 <b>education</b> -&nbsp&nbspDisplay Education details<br>\
 <b>experience</b> -&nbsp&nbspDisplay Experience details<br>\
 <b>contact</b> -&nbsp&nbspDisplay Contact details<br>\
-For more help on a command, type 'command name' help.<br>\
+For more help on a command, type 'command name' help. (Future Release)<br>\
 ";
 
 // Set Entered Commands into an array and fetch them for key up/down functionality.
