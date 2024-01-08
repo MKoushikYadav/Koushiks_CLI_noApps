@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to KCLI</title>
+    <link rel="stylesheet" href="stylesheets/main.css" />
+  </head>
+
+  <body>
+    <dialog id="introDialog">
+      <div id="authorNameArt">
+        <pre>
+___  __    ________  ___  ___  ________  ___  ___  ___  ___  __             ___    ___ ________  ________  ________  ___      ___ 
+|\  \|\  \ |\   __  \|\  \|\  \|\   ____\|\  \|\  \|\  \|\  \|\  \          |\  \  /  /|\   __  \|\   ___ \|\   __  \|\  \    /  /|
+\ \  \/  /|\ \  \|\  \ \  \\\  \ \  \___|\ \  \\\  \ \  \ \  \/  /|         \ \  \/  / | \  \|\  \ \  \_|\ \ \  \|\  \ \  \  /  / /
+\ \   ___  \ \  \\\  \ \  \\\  \ \_____  \ \   __  \ \  \ \   ___  \         \ \    / /   \   __  \ \  \ \\ \ \   __  \ \  \/  / / 
+\ \  \\ \  \ \  \\\  \ \  \\\  \|____|\  \ \  \ \  \ \  \ \  \\ \  \        \  \  \ /    \ \  \ \  \ \  \_\\ \ \  \ \  \ \    / /  
+\ \__\\ \__\ \_______\ \_______\____\_\  \ \__\ \__\ \__\ \__\\ \__\          \ \  \\     \ \__\ \__\ \_______\ \__\ \__\ \__/ /   
+\|__| \|__|\|_______|\|_______|\_________\|__|\|__|\|__|\|__| \|__|          \_\__\\     \|__|\|__|\|_______|\|__|\|__|\|__|/    
+                              \|_________|                                                                                  
+</pre
+        >
+        <p>
+          Welcome to Koushik's CLI. This is a web CLI made with HTML, CSS and
+          JS.<br />This is a personal project of mine and I hope you like it.<br />
+          New features are coming very soon. Stay tuned for more
+          updates.<br />
+        </p>
+      </div>
+      <button type="button" id="closeIntroDialog" class="button">OK</button>
+    </dialog>
+
+    <div class="screenFrame">
+      <div class="cmdbox">
+        <div id="in">
+          <div id="cmdlinePrefix">Koushik:/></div>
+          <input
+            class="inputBox"
+            type="text"
+            placeholder=" Type 'help' to get started"
+          />
+        </div>
+      </div>
+    </div>
+
+    <script src="scripts/variables.js"></script>
+    <script src="scripts/utility.js"></script>
+    <script src="scripts/console.js"></script>
+  </body>
+</html>

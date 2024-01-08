@@ -1,0 +1,27 @@
+
+
+Console.js  Line 108 function getCommandFromHistory()
+
+When previous event is arrowUp and currentEvent is also arrow arrowUp
+
+Desired Effect: Use previous command Index and decrement count
+
+Current Effect: Uses a localized command Index initialized to CommandhistoryLength
+
+
+
+
+Desired Effect:
+
+        when count = 0; HistoryLen = 0; Up Arrow Does nothing; Array = []
+        when count = 0; HistoryLen = 2; Up Arrow Does count--; Array =[1,2]. shows Array[count] = array[1] -> f(2-1) =1
+        when count = -1; HistoryLen = 2;Up Arrow Does count--; Array = [1,2]. shows Array[count] = array[0] -> f(2-2) =0
+        when count = -2; HistoryLen=2; Up Arrow Does'nt count -- as count==history. Return Integer;
+        Down Arrow does count++;
+
+        when count = -2;HistoryLen=2;Down Arrow Does count++; Array=[1,2]. shows Array[count]= array[1] -> f(2-1)=1
+        when count = -1;HistoryLen=2;Down Arrow Does'nt count as count as count==-1
+
+        Formula = Array[length+count]
+
+
