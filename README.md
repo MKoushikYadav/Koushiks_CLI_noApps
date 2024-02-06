@@ -1,5 +1,6 @@
 # Koushiks_CLI
 ## LIVE on https://mkoushikyadav.github.io/Koushiks_CLI_noApps/
+## Full version on https://github.com/MKoushikYadav/Koushiks_CLI
 A portfolio made purely with HTML, CSS and JS. The web portfolio uses a command line as the UI and switches to different pages based on the command.
 
 ## Terminal Commands
